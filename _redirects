@@ -1,0 +1,8 @@
+# Netlify redirects and headers
+/*    /index.html   200
+
+# Form submission redirect (optional - Netlify Forms will handle this automatically)
+/contact   /contact.html   200
+
+# API and form handling
+/api/*  /.netlify/functions/:splat  200
